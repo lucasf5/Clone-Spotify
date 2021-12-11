@@ -85,6 +85,29 @@ a.btn-branco{
     padding-left: 80px;
     
 }
+/* RODAPÉ */
+
+footer{
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+footer ul.navbar-nav a{
+    color: white;
+    text-decoration: none;
+}
+footer ul.navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+}
+footer h6{
+    color: #919496;
+    font-size: 1em;
+}
+
+footer .redes ul li a{
+    margin: 0px 5px;
+}
 /* tipografia */
 div.capa h1{
     font-weight: 900px;
@@ -128,47 +151,59 @@ div p{
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media screen and (max-width: 575.98px) { 
-    a.btn-custom{
-        padding: 5px 5px;
-        margin: 2px;
-        font-size: 0.9em;
+@media (max-width: 575.98px) { 
+    div.capa h1{
+        font-size: 4em;
     }
+    a.btn-custom{
+        margin: 6px;
+        font-size: 1em;
+    }
+
  }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
     div.capa h1{
-        font-size: 3em;
+        font-size: 6em;
     }
     a.btn-custom{
-        padding: 8px 8px;
-        margin: 2px;
-        font-size: 1.1em;
+        margin: 6px;
+        font-size: 1.5em;
     }
+
  }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
     div.capa h1{
-        font-size: 4em;
+        font-size: 7em;
     }
     a.btn-custom{
-        padding: 8px 8px;
-        margin: 2px;
-        font-size: 1.1em;
+        margin: 6px;
+        font-size: 1.7em;
+    }
+    footer div{
+        margin-left:30px ;
+    }
+    footer .spotify{
+        position: relative;
+        right: 40px;
+    }
+    footer .redes{
+        position: absolute;
+        right:30px;
     }
  }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     div.capa h1{
-        font-size: 5em;
+        font-size: 8em;
     }
     a.btn-custom{
-        padding: 8px 8px;
         margin: 2px;
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
  }
 
