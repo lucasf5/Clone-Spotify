@@ -1,8 +1,124 @@
-.caixa{
-    padding: 60px 0;
-    border-bottom: 1px solid #e5e5e5;
+/* @Lucasf5 */
+
+/* layout */
+body{
+    background: url(./img/capa.png),
+    url(./img/ruido.png),
+    linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html, #home{
+    height: 100%;
 }
 
-footer p a{
-    margin: 5px 15px ;
+/* barra de navegacao */
+nav.navbar-transparente{
+    background: rgba(0,0,0,0.6);
+    padding: 15px 0px;
 }
+
+div ul.navbar-nav li.nav-item a.nav-link{
+    color: white;
+}
+div ul.navbar-nav li.nav-item a.nav-link:hover{
+    color: #9bf0e1;
+}
+
+.navbar-dark button.navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: white;
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+/* capa */
+.capa{
+    text-align: center;
+}
+
+a.btn-custom{
+    color: white;
+    border-radius: 300px;
+    text-transform: uppercase;
+    transition: 0.4s, 0.4s;
+    padding: 8px 15px;
+    
+}
+.btn-roxo{
+    background: #7c25f8;
+}
+.btn-roxo:hover{
+    background: #6207e3;
+    color: white;
+}
+a.btn-branco{
+    border: 1px solid white ;
+}
+.btn-branco:hover{
+    background-color: white;
+    color: black;
+}
+/* tipografia */
+div.capa h1{
+    font-weight: 900px;
+    letter-spacing: -0.05em;
+    margin-bottom:50px;
+    color: white;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) { 
+    a.btn-custom{
+        padding: 5px 5px;
+        margin: 2px;
+        font-size: 0.9em;
+    }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    div.capa h1{
+        font-size: 3em;
+    }
+    a.btn-custom{
+        padding: 8px 8px;
+        margin: 2px;
+        font-size: 1.1em;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    div.capa h1{
+        font-size: 4em;
+    }
+    a.btn-custom{
+        padding: 8px 8px;
+        margin: 2px;
+        font-size: 1.1em;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    div.capa h1{
+        font-size: 5em;
+    }
+    a.btn-custom{
+        padding: 8px 8px;
+        margin: 2px;
+        font-size: 1.3em;
+    }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    div.capa h1{
+        font-size: 6em;
+    }
+ }
