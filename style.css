@@ -63,11 +63,60 @@ a.btn-branco{
     background-color: white;
     color: black;
 }
+/* Estrutura de conteudos */
+#servicos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albums{
+    padding: 10px 0;
+   
+}
 /* tipografia */
 div.capa h1{
     font-weight: 900px;
     letter-spacing: -0.05em;
     margin-bottom:50px;
+    color: white;
+}
+div h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    margin-bottom: 30px;
+}
+div h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+/* formatação tipografia primeira section */
+#servicos h2, div h3{
+    color: #7c25f8;
+}
+div p{
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: black;
+}
+/* formatação tipografia segunda section */
+#recursos div h3{
+    color: #9bf0e1;
+}
+#recursos h2{
+    color: white;
+}
+#recursos p{
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
     color: white;
 }
 
