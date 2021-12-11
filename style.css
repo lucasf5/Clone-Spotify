@@ -10,6 +10,8 @@ body{
 }
 body, html, #home{
     height: 100%;
+    /* esconde no eixo x (horizontal) */
+    overflow-x: hidden;
 }
 
 /* barra de navegacao */
@@ -77,6 +79,11 @@ a.btn-branco{
 .albums{
     padding: 10px 0;
    
+}
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
+    
 }
 /* tipografia */
 div.capa h1{
