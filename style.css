@@ -42,6 +42,46 @@ div ul.navbar-nav li.nav-item a.nav-link:hover{
 .capa{
     text-align: center;
 }
+/* TELA GRANDE */
+@keyframes animacao-caixa {
+    from {
+        top: 130px;
+        left: 150px;
+    }
+    to {
+        top: 130px;
+        left: 800px;
+    }
+}
+@keyframes animacao-caixa-pequena {
+    from {
+        top: 130px;
+        left: 0px;
+    }
+    to {
+        top: 130px;
+        left: 350px;
+    }
+}
+@keyframes animacao-caixa-media {
+    from {
+        top: 130px;
+        left: 50px;
+    }
+    to {
+        top: 130px;
+        left: 500px;
+    }
+}
+
+
+section#home div.fab-spo i.fab{
+    position: relative;
+    top: 130px;
+    left: 150px;
+    animation: animacao-caixa 1s 2 alternate;
+
+} 
 
 a.btn-custom{
     color: white;
@@ -159,6 +199,13 @@ div p{
         margin: 6px;
         font-size: 1em;
     }
+    section#home div.fab-spo i.fab{
+        position: relative;
+        top: 130px;
+        left: 0px;
+        animation: animacao-caixa-pequena 1s 2 alternate;
+    
+    } 
 
  }
 
@@ -171,6 +218,13 @@ div p{
         margin: 6px;
         font-size: 1.5em;
     }
+    section#home div.fab-spo i.fab{
+        position: relative;
+        top: 130px;
+        left: 0px;
+        animation: animacao-caixa-pequena 1s 2 alternate;
+    
+    } 
 
  }
 
@@ -194,6 +248,13 @@ div p{
         position: absolute;
         right:30px;
     }
+    section#home div.fab-spo i.fab{
+        position: relative;
+        top: 130px;
+        left: 50px;
+        animation: animacao-caixa-media 1s 2 alternate;
+    
+    } 
  }
 
 /* // Large devices (desktops, 992px and up) */
